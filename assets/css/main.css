@@ -1,3 +1,94 @@
 body{
 	font-family: 'Slabo 27px', serif;
+	margin:0;
+	background-color: #1D1A05;
+}
+nav{
+	background-color:#CA3C25;
+	margin-top:0;
+	padding-left: 80px;
+}
+nav a{
+	display:inline-block;
+	text-decoration: none;
+	color:whitesmoke;
+	padding:20px;
+}
+nav a:hover{
+	background-color:#f1b538;
+	color:#ffffff;
+}
+
+#galeria{
+	text-align: center;
+	padding:50px 0px;
+	margin:0 auto;
+}
+
+.images {
+	position:relative;
+	display:inline-block;
+	width:13%;
+}
+
+img{
+	width:200px;
+	filter: grayscale(80%);
+	border: 8px solid #662B00;
+	border-radius: 8px;
+}
+
+i{
+	position:absolute;
+	left:5px;
+	top:5px;
+	color:white;
+}
+
+.images i:hover{
+	color:#f1b538;
+}
+
+.botones {
+	margin:0 auto;
+	text-align:center;
+}
+
+.botones a{
+	background-color:#CA3C25;
+	text-decoration: none;
+	color:whitesmoke;
+	display:inline-block;
+	padding:15px;
+	width:300px;
+	margin:3px;
+	font-size: 20px;
+	border-radius: 7px;
+}
+
+.botones a:hover{
+	background-color:#f1b538;
+}
+
+#textos{
+	padding-top: 30px;
+	padding-left:20px;
+	width:80%;
+	color: #f1b538;
+	height:300px;
+	margin:0 auto;
+}
+
+.parrafos{
+	width:40%;
+	display:inline-block;
+	padding:10px 10px 40px 70px;
+}
+
+#p1{
+	float:left;
+}
+
+#p2{
+	float:right;
 }
