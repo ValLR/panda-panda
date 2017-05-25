@@ -71,24 +71,33 @@ i{
 }
 
 #textos{
-	padding-top: 30px;
-	padding-left:20px;
+	padding:30px;
 	width:80%;
 	color: #f1b538;
 	height:300px;
-	margin:0 auto;
+	margin:0 110px 0 110px;
 }
-
-.parrafos{
-	width:40%;
-	display:inline-block;
-	padding:10px 10px 40px 70px;
+#textos div{
+	padding:10px;
+	width:490px;
+	text-align:justify;
 }
 
 #p1{
+	margin-top:30px;
 	float:left;
 }
-
 #p2{
+	margin-top:30px;
+	padding-top:30px;
+	height:200px;
 	float:right;
+}
+/*hiding elements*/
+.parrafos.esconder{
+	display:none;
+}
+
+.images.esconder{
+	display:none;
 }
